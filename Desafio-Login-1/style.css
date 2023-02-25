@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 94px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24px;
+}
+form label{
+    padding-bottom: 7px;
+    padding-top: 3px;
+}
+form input[type="submit"]{
+    width: 135px;
+    height: 35px;
+    left: 97px;
+    top: 601px;
+    
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+form input {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 587px;
+height: 74px;
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+
+color: #000000;
+}
+header h1 {
+    width: 350px;
+height: 112px;
+left: 3px;
+top: 112px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 62px;
+color: #000000;
+}
+header p{
+    width: 473px;
+    height: 45px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    color: #000000;
+}
+ header img {
+    width: 329px;
+height: 57px;
+margin-top: 55px;
+
+ }
+footer button {
+    width: 320px;
+    height: 35px;
+    left: 97px;
+    top: 601px;
+    
+    background: #EFEFEF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+footer{
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:480px){
+    form{
+        width: 300px;
+    }
+    form input{
+        width: 300px;
+    }
+    header img {
+       height: 50px;
+    }
+    header{
+        width: 80%;
+        font-size: 8pt;
+    }
+    header h1 {
+        width: 300px;
+        padding: 0px 8px;
+    }
+    header p {
+        width: 300px;
+    }
+ 
+    body{
+        margin: 0px;
+        padding: 0px 5px;
+    }
+
+    footer p {
+        width: 400px;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+    footer button {
+        width: 382px;
+    font-size: 22px;
+    }
+    form input[type="submit"]{
+        
+    font-size: 22px;
+
+    }
+}
